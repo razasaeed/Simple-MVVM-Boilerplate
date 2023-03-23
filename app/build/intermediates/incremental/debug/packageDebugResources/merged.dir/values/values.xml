@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="background">#00A3FF</color>
+    <color name="black">#FF000000</color>
+    <color name="common_card_color">@color/white</color>
+    <color name="common_text_color">@color/dull_black</color>
+    <color name="common_theme_color_icons">@color/white</color>
+    <color name="dull_black">#292929</color>
+    <color name="dull_black_two">#6E6E6E</color>
+    <color name="grey">#B6B6B6</color>
+    <color name="light_gray">#D9D9D9</color>
+    <color name="light_gray_text">#A6A6A6</color>
+    <color name="maincolor">#00A3FF</color>
+    <color name="plan_card_inactive_color">#F3F3F3</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#2342EF</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_green">#209F1D</color>
+    <color name="text_red">#FF1E1E</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Upload_dialog_fragment">UploadDialogFragment</string>
+    <string name="ad_free_mode">Ad Free Mode</string>
+    <string name="ad_free_mode_desc">Say goodbye to add pop-ups that interfere with you while uploading and downloading data to cloud and using app.</string>
+    <string name="ads_free_access">Ads free access</string>
+    <string name="agree_and_continue">Agree &amp; Continue</string>
+    <string name="all_files_access_required">All Files Access Required</string>
+    <string name="all_files_access_required_desc">This app required All Files permission to access documents in this phone. We will securely backup your document(s) on cloud. Please allow the permission on next screen to continue.</string>
+    <string name="all_permissions_granted">All permissions are granted</string>
+    <string name="app_name">Boilerplate</string>
+    <string name="apps">Apps</string>
+    <string name="are_you_sure_delete">Are you sure you want to delete?</string>
+    <string name="are_you_sure_exit">Are you sure you want to exit?</string>
+    <string name="are_you_sure_logout">Are you sure you want to logout?</string>
+    <string name="attention">Attention</string>
+    <string name="audios">Audios</string>
+    <string name="available">Available</string>
+    <string name="backup_and_restore">Basic and Restore Media\nContent Storage</string>
+    <string name="backup_and_restore_desc">boilerplate provides fast, low-cost, highly durable storage for backup and restore. Cloud service infrastructure is secured and user data is protected.</string>
+    <string name="basic">Basic</string>
+    <string name="camera_permission">Camera Permission</string>
+    <string name="camera_permission_detail">This app requires camera permissions to capture image.</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_file_again">Choose file again</string>
+    <string name="choose_from_gallery">Choose image from Gallery</string>
+    <string name="choose_image_first">Choose image first</string>
+    <string name="classic">Classic</string>
+    <string name="cloud_storage">Boilerplate</string>
+    <string name="connection_failed">Connection Failed</string>
+    <string name="connection_failed_detail">Please check your internet connection</string>
+    <string name="contact_permission">Contact Permission</string>
+    <string name="contacts">Contacts</string>
+    <string name="continue_with">Continue with %1$s</string>
+    <string name="core_fundamentals">Core fundamental are based on these permissions</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="delete">Delete</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="delete_dialog_fragment">DeleteDialogFragment</string>
+    <string name="deleted_successfully">Deleted Successfully</string>
+    <string name="deleting">Deleting</string>
+    <string name="documents">Documents</string>
+    <string name="done">Done</string>
+    <string name="download">Download</string>
+    <string name="download_dialog_fragment">DownloadDialogFragment</string>
+    <string name="download_path">Download Path</string>
+    <string name="downloaded_successfully">Downloaded Successfully</string>
+    <string name="downloading">Downloading</string>
+    <string name="downloading_media">Downloading Media</string>
+    <string name="downloadingtitle">Downloading :</string>
+    <string name="email">Email</string>
+    <string name="exit">Exit</string>
+    <string name="fail_to_login">Login Failed</string>
+    <string name="features">Features</string>
+    <string name="firebase_auth_failed">Authentication Failed :" %1$s</string>
+    <string name="firebase_auth_success">Firebase authentication successful</string>
+    <string name="free_5_gb">Free 5 GB</string>
+    <string name="full_name">Full Name</string>
+    <string name="gb">GB</string>
+    <string name="get_15_gb">Get 15 GB Storage</string>
+    <string name="get_25_gb">Get 25 GB Storage</string>
+    <string name="grant_contact_permission">Please allow contact permission from application settings</string>
+    <string name="grant_permission">Grant permission</string>
+    <string name="images">Images</string>
+    <string name="lets_start">Let\'s Start</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="login_success">Sign in successful</string>
+    <string name="login_with_gmail">Login With Gmail</string>
+    <string name="logout">Logout</string>
+    <string name="missing_fields">Enter your name</string>
+    <string name="necessary_permissions">You need to allow necessary permissions in Settings manually</string>
+    <string name="need_permissions">Need Permission</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="no_permissions">No permission</string>
+    <string name="ok">OK</string>
+    <string name="open_settings">1. Open Settings</string>
+    <string name="open_settings_title">Open Settings</string>
+    <string name="package_">package</string>
+    <string name="permission_detail">This app requires storage and contacts permissions to access media and contacts in this phone. We will securely backup your data on cloud. Please allow the permission on next dialog to continue.</string>
+    <string name="permission_detail_title">Permissions Detail</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="phone">Phone</string>
+    <string name="phone_storage">Phone Storage</string>
+    <string name="please_allow_cloud_storage">Please allow boilerplate to access storage / contacts on your device.</string>
+    <string name="premium">Premium</string>
+    <string name="premium_subscription">Premium Subscription</string>
+    <string name="privacy_dialog_condition">If you agree to our <font fgcolor="#00A3FF"><u>Privacy Policy</u></font> for Data handling press "Agree &amp; Continue"</string>
+    <string name="privacy_dialog_description">This app, allows you to backup Photos, Videos, Contacts and other data on your phone to our secure servers. Your email / phone is kept on our servers securely for registration and to identify you and help you to restore data from the cloud.</string>
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="privacy_policy_link">https://sites.google.com/view/cloudstoragemycloud-privacy/home</string>
+    <string name="privacy_policy_simple">Privacy Policy</string>
+    <string name="proceed">Proceed</string>
+    <string name="profile">Profile</string>
+    <string name="profile_info">Profile Info</string>
+    <string name="profile_updated">Profile updated</string>
+    <string name="search">Search</string>
+    <string name="select_atleast_one_file">Select at least one file</string>
+    <string name="settings">Settings</string>
+    <string name="space_not_allowed">Starting space is not allowed</string>
+    <string name="splash_description">Best ever boilerplate platform where you can\nmanage your all business and individual data.</string>
+    <string name="storage">Storage</string>
+    <string name="storage_permission">Storage Permission</string>
+    <string name="storage_permission_description">We need storage permission to show all of your data</string>
+    <string name="take_new_photo">Take a new photo</string>
+    <string name="tap_permissions">2. Tap Permissions</string>
+    <string name="total">Total</string>
+    <string name="total_items">Total Items :</string>
+    <string name="try_again">Try Again</string>
+    <string name="turn_on_storage">3. Turn On Storage / Contacts</string>
+    <string name="unlock_basic_version">Unlock basic version</string>
+    <string name="update">Update</string>
+    <string name="upload">Upload</string>
+    <string name="uploaded">Uploaded :</string>
+    <string name="uploaded_successfully">Uploaded Successfully</string>
+    <string name="uploading">Uploading :</string>
+    <string name="uploading_media">Uploading Media</string>
+    <string name="used">Used</string>
+    <string name="videos">Videos</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="you_cant_select_more">You can not select any more media</string>
+    <style name="CustomCardViewStyle" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners</item>
+    </style>
+    <style name="RoundButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/text_red</item>
+        <item name="background">@drawable/ic_attention_cancel</item>
+        <item name="backgroundColor">@color/text_red</item>
+        <item name="android:backgroundTint">@color/text_red</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="RoundButtonStyleFilled" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="background">@drawable/ic_attention_delete</item>
+        <item name="backgroundColor">@color/text_red</item>
+        <item name="android:backgroundTint">@color/text_red</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay_card_custom_corners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">30dp</item>
+        <item name="cornerSizeTopLeft">30dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+    <style name="SheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">     @android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="SmallRoundButtonStyle" parent="TextAppearance.AppCompat.Button">
+
+        <item name="android:textColor">@color/common_text_color</item>
+        <item name="android:textSize">14sp</item>
+
+
+        <item name="android:layout_height">40dp</item>
+        <item name="cornerRadius">20dp</item>
+
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+
+    </style>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.CloudStorage</item>
+
+    </style>
+    <style name="Theme.CloudStorage" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/maincolor</item>
+        <item name="colorPrimaryVariant">@color/maincolor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="switchtheme" parent="Theme.AppCompat.Light">
+        
+        <item name="colorControlActivated">@color/maincolor</item>
+
+        
+        <item name="colorSwitchThumbNormal">#D9D9D9
+        </item>
+
+        
+        <item name="android:colorForeground">#42221f1f
+        </item>
+    </style>
+    <style name="wait">
+        <item name="colorAccent">@color/maincolor</item>
+    </style>
+</resources>

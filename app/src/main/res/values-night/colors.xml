@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#2342EF</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#B6B6B6</color>
+    <color name="dull_black">#292929</color>
+    <color name="dull_black_two">#6E6E6E</color>
+    <color name="maincolor">#00A3FF</color>
+    <color name="background">#00A3FF</color>
+    <color name="light_gray_text">#A6A6A6</color>
+    <color name="light_gray">#D9D9D9</color>
+    <color name="text_green">#209F1D</color>
+    <color name="text_red">#FF1E1E</color>
+
+    <color name="common_text_color">@color/white</color>
+    <color name="common_theme_color_icons">#303030</color>
+    <color name="common_card_color">#303030</color>
+
+    <color name="plan_card_inactive_color">#303030</color>
+</resources>

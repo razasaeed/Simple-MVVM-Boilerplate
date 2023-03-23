@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="background">#00A3FF</color>
+    <color name="black">#FF000000</color>
+    <color name="common_card_color">#303030</color>
+    <color name="common_text_color">@color/white</color>
+    <color name="common_theme_color_icons">#303030</color>
+    <color name="dull_black">#292929</color>
+    <color name="dull_black_two">#6E6E6E</color>
+    <color name="grey">#B6B6B6</color>
+    <color name="light_gray">#D9D9D9</color>
+    <color name="light_gray_text">#A6A6A6</color>
+    <color name="maincolor">#00A3FF</color>
+    <color name="plan_card_inactive_color">#303030</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#2342EF</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_green">#209F1D</color>
+    <color name="text_red">#FF1E1E</color>
+    <color name="white">#FFFFFFFF</color>
+    <style name="CustomCardViewStyle" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners</item>
+    </style>
+    <style name="ShapeAppearanceOverlay_card_custom_corners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">30dp</item>
+        <item name="cornerSizeTopLeft">30dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+    <style name="SheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">     @android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#000000</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.CloudStorage</item>
+
+    </style>
+    <style name="Theme.CloudStorage" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/maincolor</item>
+        <item name="colorPrimaryVariant">@color/maincolor</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="wait">
+        <item name="colorAccent">@color/maincolor</item>
+    </style>
+</resources>

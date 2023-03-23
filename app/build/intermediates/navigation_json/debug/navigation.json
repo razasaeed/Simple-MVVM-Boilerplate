@@ -1,0 +1,62 @@
+[
+  {
+    "name": "gallery_graph",
+    "navigationXmlIds": [],
+    "deepLinks": [
+      {
+        "schemes": [
+          "https"
+        ],
+        "host": "apps-selection",
+        "port": -1,
+        "path": "/",
+        "sourceFilePosition": {
+          "mSourceFile": {
+            "mFilePath": "C:\\Users\\lenovo\\Documents\\MVVM_Boilerplate\\app\\src\\main\\res\\navigation\\gallery_graph.xml",
+            "mDescription": "gallery_graph"
+          },
+          "mSourcePosition": {
+            "mStartLine": 13,
+            "mStartColumn": 8,
+            "mStartOffset": 555,
+            "mEndLine": 15,
+            "mEndColumn": 47,
+            "mEndOffset": 651
+          }
+        },
+        "isAutoVerify": false
+      }
+    ]
+  },
+  {
+    "name": "main_navigation",
+    "navigationXmlIds": [
+      "gallery_graph"
+    ],
+    "deepLinks": [
+      {
+        "schemes": [
+          "https"
+        ],
+        "host": "dashboard",
+        "port": -1,
+        "path": "/",
+        "sourceFilePosition": {
+          "mSourceFile": {
+            "mFilePath": "C:\\Users\\lenovo\\Documents\\MVVM_Boilerplate\\app\\src\\main\\res\\navigation\\main_navigation.xml",
+            "mDescription": "main_navigation"
+          },
+          "mSourcePosition": {
+            "mStartLine": 21,
+            "mStartColumn": 8,
+            "mStartOffset": 767,
+            "mEndLine": 23,
+            "mEndColumn": 42,
+            "mEndOffset": 858
+          }
+        },
+        "isAutoVerify": false
+      }
+    ]
+  }
+]

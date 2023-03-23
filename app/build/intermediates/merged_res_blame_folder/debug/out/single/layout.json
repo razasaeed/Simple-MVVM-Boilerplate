@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/apps_cell.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/apps_cell.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/layout_select_all.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/layout_select_all.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/activity_toolbar.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/activity_toolbar.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/activity_dashboard.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/internet_connection_detail.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/internet_connection_detail.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/dialog_all_files_access_detail.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/dialog_all_files_access_detail.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/dialog_attention.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/dialog_attention.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/activity_splash.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/apps_selection_fragment.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/apps_selection_fragment.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/layout_storage_not_ready.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/layout_storage_not_ready.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/dialog_privacy_policy.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/dialog_privacy_policy.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/item_loading_state.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/item_loading_state.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/main_button.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/main_button.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/delete_progress_layout.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/delete_progress_layout.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/activity_main.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/activity_main.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/dialog_permission_detail.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/dialog_permission_detail.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/no_permission.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/no_permission.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/upload_progress_layout.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/upload_progress_layout.xml"
+    },
+    {
+        "merged": "global.cloud.storage.app-mergeDebugResources-65:/layout/layout_search.xml",
+        "source": "global.cloud.storage.app-main-68:/layout/layout_search.xml"
+    }
+]

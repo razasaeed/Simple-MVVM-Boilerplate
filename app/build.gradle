@@ -1,0 +1,135 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'androidx.navigation.safeargs.kotlin'
+}
+
+android {
+    compileSdk compile_sdk_version
+
+    defaultConfig {
+        applicationId app_id
+        minSdk min_sdk_version
+        targetSdk target_sdk_version
+        versionCode version_code
+        versionName version_name
+        /*vectorDrawables.useSupportLibrary = true*/
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "DEFAULT_CLIENT_ID", "\"${project.DEFAULT_CLIENT_ID}\""
+        buildConfigField "String", "API_BASE_PATH", "\"${project.API_BASE_PATH}\""
+        buildConfigField "String", "LICENSE_KEY", "\"${project.LICENSE_KEY}\""
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = jvm_target
+    }
+    buildFeatures {
+        dataBinding true
+    }
+}
+
+dependencies {
+
+    implementation coreDependencies.core
+    implementation coreDependencies.app_compat
+    implementation coreDependencies.material
+    implementation coreDependencies.constraint_layout
+    implementation coreDependencies.legacy_support
+
+    implementation navigationDependencies.navigation
+    implementation navigationDependencies.navigation_ui
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    // Hilt
+    implementation hiltDependencies.hilt
+    kapt hiltDependencies.hilt_android_compiler
+    kapt hiltDependencies.hilt_compiler
+    implementation hiltDependencies.hilt_nav
+
+    // Gson
+    implementation gsonDependency.gson
+
+    // okhttp
+    implementation okHttpDependency.okhttp
+    implementation okHttpDependency.okhttp_logging
+
+    // retrofit
+    implementation retrofitDependency.retrofit
+    implementation retrofitDependency.retrofit_converter
+    implementation retrofitDependency.retrofit_adapter
+
+    // lifecycle
+    implementation lifecycleDependency.lifecycle_livedata
+    implementation lifecycleDependency.lifecycle_viewmodel
+    implementation lifecycleDependency.lifecycle_runtime
+
+    // glide
+    implementation glideDependency.glide
+    implementation glideDependency.glide_compiler
+
+    // auth
+    implementation googleAuth.auth
+
+    // firebase
+//    implementation platform(firebaseBom.firebase)
+//    implementation firebaseBom.auth_ktx
+//    implementation firebase.crashlytics
+//    implementation firebase.analytics
+//    implementation firebase.monitoring
+
+    // hawk
+    implementation hawkDependency.hawk
+
+    // permission
+    implementation permissionDependency.permissionx
+
+    // splash
+    implementation splash.core_splash
+
+    // lottie
+    implementation lottie.animation
+    
+    // update
+    implementation updates.app_update
+
+    // paging
+    implementation pagingDependency.paging
+
+    // billing
+    implementation  billing.billing_client
+    implementation  billing.billing_client_ktx
+
+    // data_store
+    implementation store.data_store
+    implementation store.data_store_preferences
+
+    // chuck
+    debugImplementation "com.github.chuckerteam.chucker:library:3.5.2"
+
+    // circle_image_view
+    implementation circle.image_view
+
+    // picasso
+    implementation picasso.pic
+}

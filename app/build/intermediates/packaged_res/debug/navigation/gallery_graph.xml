@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gallery_graph"
+    app:startDestination="@id/appsSelectionFragment">
+
+    <fragment
+        android:id="@+id/appsSelectionFragment"
+        android:name="global.cloud.storage.ui.apps.AppsSelectionFragment"
+        android:label="AppsSelectionFragment"
+        tools:layout="@layout/apps_selection_fragment">
+
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://apps-selection" />
+
+    </fragment>
+
+</navigation>

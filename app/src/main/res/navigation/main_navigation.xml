@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="global.cloud.storage.ui.splash.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/activity_splash">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="global.cloud.storage.ui.dashboard.DashboardFragment"
+        android:label="DashboardFragment"
+        tools:layout="@layout/activity_dashboard">
+
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://dashboard" />
+
+    </fragment>
+
+    <include app:graph="@navigation/gallery_graph" />
+
+</navigation>
